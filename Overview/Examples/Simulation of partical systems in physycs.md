@@ -1,0 +1,10 @@
+-  Sanchez-Gonzalez, A., Godwin, J., Pfaff, T., Ying, R., Leskovec, J., & Battaglia, P. (2020, November). Learning to simulate complex physics with graph networks. In _International Conference on Machine Learning_ (pp. 8459-8468). PMLR.
+-   Simulator video source: [https://sites.google.com/view/learning-to-simulate/](https://sites.google.com/view/learning-to-simulate)
+-   Project Code & Datasets: [https://github.com/deepmind/deepmind-research/tree/master/learning_to_simulate](https://github.com/deepmind/deepmind-research/tree/master/learning_to_simulate)
+-   Daniel Holden's talk from UbiSoft: [https://www.youtube.com/watch?v=sUb0W5_waRI](https://www.youtube.com/watch?v=sUb0W5_waRI)
+-   SPlisHSPlasH project: [https://github.com/InteractiveComputerGraphics/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH)
+-   "Data-driven Fluid Simulations using Regression Forests": [https://people.inf.ethz.ch/ladickyl/fluid_sigasia15.pdf](https://people.inf.ethz.ch/ladickyl/fluid_sigasia15.pdf)
+-   "Latent Space Physics: Towards Learning the Temporal Evolution of Fluid Flow": [https://arxiv.org/pdf/1802.10123.pdf](https://arxiv.org/pdf/1802.10123.pdf)
+-   "Learning to Predict the Cosmological Structure Formation": [https://arxiv.org/pdf/1811.06533.pdf](https://arxiv.org/pdf/1811.06533.pdf)
+-   "Graph Networks as Learnable Physics Engines for Inference and Control": [https://arxiv.org/pdf/1806.01242.pdf](https://arxiv.org/pdf/1806.01242.pdf)
+-   "Relational inductive biases, deep learning, and graph networks": [https://arxiv.org/pdf/1806.01261.pdf](https://arxiv.org/pdf/1806.01261.pdf)
