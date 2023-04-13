@@ -7,7 +7,7 @@ The cumulative mark for the work during the modulus is based on the mark for the
 
 `Project` =  $\dfrac{CP_1+CP_2}{20}$ + $\dfrac{Research\:Proposal}{10}$ + $\dfrac{Preprocessing\:and\:Data\:Loading}{10}$ + $\dfrac{2 \times EDA}{10}$ + $\dfrac{3 \times Research\:Hypothises\:Validation}{10}$+ $\dfrac{Interpretation\:of\:Results}{10}$ + $\dfrac{Project\:Presentation}{10}$ 
 
-Final exam can be replaced with course project. The grade for the course project must be set **before** the final exam.
+The grade for the course project must be set **before** the final exam.
 
 ## Taking the exam
 Evaluation formula for the exam:
