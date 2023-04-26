@@ -5,8 +5,9 @@ Spring 2023
 - **Public resources**: The lecture videos, quizes will be posted online as the course progresses.
 
 - **Contact**:
-	- Students should ask _all_ course-related questions on the [issues page](https://github.com/UDA-2022/General/issues) of the course repository. Please fill the assignee field while asking the question.
-	- Students are supposed to have book time to get additional consulting on their course projects and other course-related questions. Consulting hours list and other usefull information can be found [at the course repository](https://github.com/UDA-2022/General)
+	- Ask _all_ course-related questions on the [issues page](https://github.com/karpovilia/SNA/issues) of the course repository. Please fill the assignee field while asking the question.
+	- Discuss  course projects and other course-related questions at consulting hours. Since this page is publically avallable, consulting hours can be found at the telegram chat.
+
 
 ## Schedule
 Lecture slides will be posted here shortly before each lecture.
