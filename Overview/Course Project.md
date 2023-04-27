@@ -4,9 +4,12 @@
 # Control Points
 All course project materials are supposed to be send to the professor's @hse email before the deadline. You can upload materials to your project github and send an email with github commit message and short description of the content.
 
-## Control Point 1 - Project proposal
+## Control Point 1 - Project Proposal
 ### Requirements: Text, containing:
 General structure of the Project Proposal is the following:
+
+0.5-2 pages, describing **what**, **how**, using which **data** you are going to do.
+
 1. Title
 2. Abstract
 3. Introduction
@@ -18,7 +21,7 @@ General structure of the Project Proposal is the following:
 6. References
 7. Appendices (optional)
 
-## Control Point 2 - Project equator
+## Control Point 2 - Project Equator
 ### Requirements: Presentation, containing:
 1. Project repository inside https://github.com/SNA-23
 2. Project communication channel 

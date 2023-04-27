@@ -13,6 +13,10 @@ The **SIR model** is one of the simplest compartmental models, and many models
 - **I**: The number of **i**nfectious individuals. These are individuals who have been infected and are capable of infecting susceptible individuals.
 - **R** for the number of **r**emoved (and immune) or deceased individuals. These are individuals who have been infected and have either recovered from the disease and entered the removed compartment, or died. It is assumed that the number of deaths is negligible with respect to the total population. This compartment may also be called "**r**ecovered" or "**r**esistant".
 
+Tools:
+- [ndlib](https://ndlib.readthedocs.io/en/latest/)
+- [DEMMO](https://github.com/Paul-NP/demmo/blob/master/help/DEMMo_help.pdf), [habr article](https://habr.com/ru/articles/551682/)
+
 Colabs
 - [Epidemics on networks](https://drive.google.com/file/d/1HadieLdxb8Tjnn8I4-6nDDtgLLaIVuWC/view?usp=sharing)
 - [Diffusion Models](https://drive.google.com/file/d/1HJkkts1MEbqo3mI-86C-UfslQCjypqjg/view?usp=sharing)
