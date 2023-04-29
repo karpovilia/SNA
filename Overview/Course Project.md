@@ -45,7 +45,7 @@ General structure of the Project Proposal is the following:
 
 | Title                                   | Description                                                                                                               | CP  | Deadline   |
 |-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------|-----|------------|
-| Research Proposal                       | Substantiation of the relevance of the chosen task and a brief literature review on the topic                             | CP1 | ~~19.04.2023~~ ~~26.04.2023~~ 01.05.2023 |
+| Project Proposal                       | Substantiation of the relevance of the chosen task and a brief literature review on the topic                             | CP1 | ~~19.04.2023~~ ~~26.04.2023~~ 01.05.2023 |
 | Preprocessing and Data Loading          | Collection and preparation of data for analysis                                                                           | CP2 | 10.05.2023 |
 | Descriptive statistics and centralities | Description of the received data, distribution of the target variable                                                     | CP2 | 10.05.2023 |
 | Research hypothises validation          | Exploratory analysis and obtaining the structural features of the original array, classifier training, etc...             | CP3 | 01.06.2023 |
