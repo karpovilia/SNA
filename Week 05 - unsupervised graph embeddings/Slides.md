@@ -10,7 +10,7 @@ header: '[&#9635;](#1, " ")  &nbsp; Title'
 # Графовые эмбеддинги
 ### Subheading
 Moscow, 2023
-
+[video](https://youtu.be/nnvgnxFy6H8)
 <!-- centered headline only on front slide -->
 <style scoped>
   section{justify-content: center;}
