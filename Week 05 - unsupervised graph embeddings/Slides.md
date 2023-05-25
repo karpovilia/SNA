@@ -7,7 +7,7 @@ footer: '[![](http://www.christopherhahne.de/images/favicons/apple-touch-icon-72
 header: '[&#9635;](#1, " ")  &nbsp; Title'
 ---
 
-# Графовые эмбеддинги
+# Network Embeddings
 ### Subheading
 Moscow, 2023
 [video](https://youtu.be/nnvgnxFy6H8)
@@ -71,13 +71,13 @@ $W$ - adjacency matrix with weights
 $D$ - diagonal degree matrix
 $L = D - W$ - Laplacian of the graph
 $Y_i$ is the vector representation of a vertex $i$ of dimension $d \ll |V|$
-$I$ is a unit matrix
+$I$ is a unary matrix
 $\phi(Y)$ - loss function
 
 ### 1) Locally Linear Embedding (2000)
 $Y_i \approx \sum\limits_j{W_{ij}Yj}$
 $\phi(Y) = \sum\limits_i{||Y_i - \sum{W{ij}Yj}||^2}$
-is reduced to finding the smallest eigenvectors of the sparse matrix 
+is reduced to finding the largest eigenvectors of the sparse matrix 
 $(I-W)^T(I-W)$
 
 ### 2) Laplacian Eigenmaps (NIPS, 2002)
@@ -89,7 +89,7 @@ is reduced to finding the smallest eigenvectors of the normalized Laplassian
 
 $L_{norm} = D^{-1/2}LD^{-1/2}$
 
-3) Cauchy Graph Embeddings (ICML 2011)
+### 3) Cauchy Graph Embeddings (ICML 2011)
 Другая метрика близости $distance = \frac{|Y_i - Y_j|^2}{|Y_i - Y_j|^2+\gamma^2}$
 $\phi(Y) = \frac{1}{2}\sum\limits_{i,j}\frac{W_{i,j}}{|Y_i-Y_j|^2+\gamma^2}$
 
@@ -117,6 +117,7 @@ $\phi(Y)=||S-Y_sY_t^T||^2_F$ , сложность алгоритма $O(|E|d^2)$
 
 - HOPE [paper](https://www.kdd.org/kdd2016/papers/files/rfp0184-ouA.pdf)
 	- [authors’ code](https://github.com/ZW-ZHANG/HOPE) (MATLAB)
+	- [add python code]
 
 ![[Pasted image 20230511165532.png]]
 - AROPE [paper](https://pengcui.thumedialab.com/papers/NE-ArbitraryProximity.pdf)
@@ -125,8 +126,6 @@ $\phi(Y)=||S-Y_sY_t^T||^2_F$ , сложность алгоритма $O(|E|d^2)$
 ---
 ## Word2vec
 ![](Pasted%20image%2020230511152227.png)
-
-
 
 word2vec learns vector representations of words, useful in application tasks. Vectors show interesting semantic properties. For example:
 -   _king: male = queen: female_ ⇒
@@ -149,9 +148,9 @@ word2vec learns vector representations of words, useful in application tasks. Ve
 ![[Pasted image 20230511162852.png]]
 
 - Parameters
-	- In practical tasks $w = 10$, $\gamma=80$
+	- In practical tasks $w = 10$, $\gamma=80$, $t=80$
 	- newer change $w$
-	- If you lower $w$, increase $\gamma$
+	- If you lower $w$, increase $\gamma$, $t$
 
 - DeepWalk [paper](https://arxiv.org/abs/1403.6652) 
 	- [authors’ code](https://github.com/phanein/deepwalk) (Python) 
@@ -159,9 +158,7 @@ word2vec learns vector representations of words, useful in application tasks. Ve
 
 ### 2) LINE
 **Key Idea:** - don't generate random walks
-
 ![[Pasted image 20230511164350.png]]
-
 - LINE [paper](https://arxiv.org/abs/1503.03578)
 	- [authors’ code](https://github.com/tangjianpku/LINE) (C++)
 
@@ -183,7 +180,6 @@ Random walks define a hidden similarity distribution
  - VERSE [paper](https://arxiv.org/abs/1803.04742)
 	 - [authors’ code](https://github.com/xgfs/verse) (C++)
 
-
 ## Useful Links
 - Survey on graph embeddings and their applications to machine learning problems on graphs [peerj](https://peerj.com/articles/cs-357/)
 
@@ -194,7 +190,7 @@ Random walks define a hidden similarity distribution
 	- [authors’ code](https://github.com/ZW-ZHANG/RandNE) (Python)
 	
 - FastRP [paper](https://arxiv.org/abs/1908.11512)
-	- [authors’ code (Python)](https://github.com/GTmac/FastRP) [DEAD] 
+	- [authors’ code (Python)](https://github.com/GTmac/FastRP)
 
  - NodeSketch [paper](https://exascale.info/assets/pdf/yang2019nodesketch.pdf)
 	 - [authors’ code](https://github.com/eXascaleInfolab/NodeSketch)
