@@ -1,7 +1,10 @@
-# Seminar 06 - Unsupervised Graph Embeddings
+# Seminar 06 - Graph Embeddings
+
+- [The drop of water](https://colab.research.google.com/drive/1HY6HNq1YDcNlQLTnqbdeUSSfjZmBy1zp#scrollTo=k0VjBkxFznb7)
 
 # Node Classification
-* The Annotated GAT (Cora) [colab](https://colab.research.google.com/drive/1RdYRbdvdZqkEL36UxkWXC1J_AmMLiBJb?usp=sharing), [github](https://github.com/gordicaleksa/pytorch-GAT/blob/main/The%20Annotated%20GAT%20(Cora).ipynb), [объяснение youtube](https://www.youtube.com/watch?v=uFLeKkXWq2c)
+* [What is Cora?](https://sites.google.com/site/semanticbasedregularization/home/software/experiments_on_cora)
+* The Annotated GAT (Cora) [colab](https://colab.research.google.com/drive/1ldCA55dmH7zI0Z2GNwBRSNimm1nMyVOj?usp=sharing), [github](https://github.com/gordicaleksa/pytorch-GAT/blob/main/The%20Annotated%20GAT%20(Cora).ipynb), [объяснение youtube](https://www.youtube.com/watch?v=uFLeKkXWq2c)
 * Stellargraph Cora  [colab](https://colab.research.google.com/drive/1gud5XJ3tNF-b8Ag6CuXS0vCiUHSFgElV?usp=sharing)
 
 # Other embeddings
