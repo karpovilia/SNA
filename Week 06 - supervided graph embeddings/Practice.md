@@ -1,5 +1,5 @@
 # Seminar 06 - Graph Embeddings
-
+[Video 6] - https://youtu.be/SHzqTGc8_h8
 - [The drop of water](https://colab.research.google.com/drive/1HY6HNq1YDcNlQLTnqbdeUSSfjZmBy1zp#scrollTo=k0VjBkxFznb7)
 
 # Node Classification
@@ -14,7 +14,7 @@
 Petar Velicovic official [GAT page](https://petar-v.com/GAT/)
 
 * [Graphs - Lecture 7 - Embeddings](https://www.kaggle.com/arsenykhakhalin/graphs-lecture-7-embeddings)
-
+* 
 NodeSketch: Highly-Efficient Graph Embeddings via Recursive Sketching. Yang et al., KDD 2019, 
 
 [Must-read papers on GNN](https://github.com/thunlp/GNNPapers)
