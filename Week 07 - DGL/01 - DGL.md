@@ -31,7 +31,7 @@ Handling nodes without natural features
 - Increasingly supporting heterogeneous graphs
 
 ---
-## PyTorchGeometric (PyG)
+## PyTorch Geometric (PyG)
 - Built on top of PyTorch
 - Developed at TU Dortmund and Stanford Universities
 - Overlap with group that runs the Open Graph Benchmark

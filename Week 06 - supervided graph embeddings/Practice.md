@@ -14,8 +14,8 @@
 Petar Velicovic official [GAT page](https://petar-v.com/GAT/)
 
 * [Graphs - Lecture 7 - Embeddings](https://www.kaggle.com/arsenykhakhalin/graphs-lecture-7-embeddings)
-* 
-NodeSketch: Highly-Efficient Graph Embeddings via Recursive Sketching. Yang et al., KDD 2019, 
+*
+NodeSketch: Highly-Efficient Graph Embeddings via Recursive Sketching. Yang et al., KDD 2019,
 
 [Must-read papers on GNN](https://github.com/thunlp/GNNPapers)
 [Graph-based Deep Learning Literature](https://github.com/naganandy/graph-based-deep-learning-literature)
@@ -27,3 +27,6 @@ NodeSketch: Highly-Efficient Graph Embeddings via Recursive Sketching. Yang et a
 
 Еще один неплохой доклад от Michael Bronstein [youtube](https://www.youtube.com/watch?v=PLGcx65MhCc)
 Intro to graph neural networks от Petar Veličković [youtube](https://www.youtube.com/watch?v=8owQBFAHw7E)
+
+Какой то индус
+https://www.youtube.com/watch?v=SnLOed2MtiQ
