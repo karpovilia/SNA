@@ -48,9 +48,9 @@ General structure of the Project Proposal is the following:
 | Project Proposal                       | Substantiation of the relevance of the chosen task and a brief literature review on the topic                             | CP1 | ~~19.04.2023~~ ~~26.04.2023~~ 01.05.2023 |
 | Preprocessing and Data Loading          | Collection and preparation of data for analysis                                                                           | CP2 | ~~10.05.2023~~ ~~14.05.2023~~ 18.05.2023|
 | Descriptive statistics and centralities | Description of the received data, distribution of the target variable                                                     | CP2 | ~~10.05.2023~~ ~~14.05.2023~~ 18.05.2023|
-| Research hypothises validation          | Exploratory analysis and obtaining the structural features of the original array, classifier training, etc...             | CP3 | ~~01.06.2023~~ 10.06.2023 |
-| Interpretation of results               | Registration of the main results of the project as text of the CP paper and git repo. Explanation of the obtained results | CP3 | ~~01.06.2023~~ 10.06.2023 |
-| Course Project presentation             | Speech & presentation at the final seminar                                                                                | CP3 | ~~01.06.2023~~ 15.06.2023 |
+| Research hypothises validation          | Exploratory analysis and obtaining the structural features of the original array, classifier training, etc...             | CP3 | ~~01.06.2023~~ 20.06.2023 |
+| Interpretation of results               | Registration of the main results of the project as text of the CP paper and git repo. Explanation of the obtained results | CP3 | ~~01.06.2023~~ 20.06.2023 |
+| Course Project presentation             | Speech & presentation at the final seminar                                                                                | CP3 | ~~01.06.2023~~ ~~15.06.2023~~ 22.06.2023 |
 
 * Sumbission date and time is taken from the date of delivery of the mail message to the professor's @hse.ru address (can be found at the [official page](https://www.hse.ru/en/staff/iakarpov)). Late submission policy: -5% score per day. All submission deadlines are 23:59 GMT+3.
 
