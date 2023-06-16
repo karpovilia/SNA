@@ -4,5 +4,6 @@
 - week 04 [video](https://youtu.be/TkPxJnM6_sg)
 - week 05 [video](https://youtu.be/nnvgnxFy6H8)
 - week 06 [video](https://youtu.be/SHzqTGc8_h8)
-- week 07 [video](https://youtu.be/1XNfF4VdFXQ), [video](https://youtu.be/TkPxJnM6_sg)
+- week 07 [video](https://youtu.be/1XNfF4VdFXQ)
+- week [video](https://youtu.be/TkPxJnM6_sg)
 - week [video](https://youtu.be/IHuEYMyDepc)
