@@ -1,0 +1,1 @@
+A Comprehensive Survey on Graph Neural Networks, 2019, [pdf](https://arxiv.org/pdf/1901.00596.pdf)

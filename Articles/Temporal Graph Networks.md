@@ -1,0 +1,8 @@
+- On the Evaluation of Methods for Temporal Knowledge Graph Forecasting, NeurIPS 2022 TGL Workshop,  [pdf](https://neclab.eu/fileadmin/user_upload/On_the_Evaluation_of_Methods_for_Temporal_Knowledge_Graph_Forecasting.pdf)
+- Do We Really Need Complicated Model Architectures For Temporal Networks?, [open_review](https://openreview.net/forum?id=ayPPc0SyLv1), ICLR 2023
+	- предлагают модель GraphMixer, без рекуррентных нейронных слоёв с SOTA результатом
+- Representation Learning in Continuous-Time Dynamic Signed Networks, 2023, [pdf](https://arxiv.org/pdf/2207.03408.pdf)
+	- просто бомба!
+- Scalable Spatiotemporal Graph Neural Networks, NeurIPS 2022 TGL Workshop **best paper**), [pdf](https://arxiv.org/pdf/2209.06520.pdf)
+- Graph Neural Networks for Link Prediction with Subgraph Sketching, 2023 [openreview](https://openreview.net/forum?id=m1oqEOAozQU), [github](https://github.com/melifluos/subgraph-sketching)
+- Complex Evolutional Pattern Learning for Temporal Knowledge Graph Reasoning, ACL 2022, [pdf](https://arxiv.org/pdf/2203.07782.pdf) #NLP
