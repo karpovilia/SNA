@@ -17,5 +17,3 @@ Have:
 - the skill to visualize graph data
 
 Basic knowledge of **python** programming language and statistics are required for this course.
-
-ggg
