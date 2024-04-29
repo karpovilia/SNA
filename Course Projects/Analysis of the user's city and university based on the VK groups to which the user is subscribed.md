@@ -1,6 +1,5 @@
-## Analysis of the user's city and university based on the VK groups to which the user is subscribed
 by 
-- Illarionov Alexei, 
+- Illarionov Alexei
 - Bolotova Ekaterina
 GitHub
 ## Key idea of project
