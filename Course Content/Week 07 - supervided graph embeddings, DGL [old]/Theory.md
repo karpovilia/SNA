@@ -4,21 +4,21 @@ Our goal is to assign our nodes meaningful coordinates (embeddings)
 An embedding of a node should consider it's connections
 	i,e, nodes that share many connections should have similar embeddings
 
-![[1_XZQd9AfalvGWqy3ULVApog.webp]]
+![[edu/Magolego 2024/Course Content/Week 07 - supervided graph embeddings, DGL [old]/img/1_XZQd9AfalvGWqy3ULVApog.webp]]
 
 ## Example 
 - Nodes: people
 - Node features: age, net worth
 - Edges: in phone contacts
 - Edge features: number of phone calls in last year
-![[Pasted image 20230525135158.png]]
+![[edu/Magolego 2024/Course Content/Week 07 - supervided graph embeddings, DGL [old]/img/Pasted image 20230525135158.png]]
 ## Intuition
 - **Goal**: to calculate neighborhood-aware embeddings for nodes
 - **Approach:** 
 	- Messages are sent between nodes via the edges
 	- Nodes use these messages to update its embedding
 
-![[Pasted image 20230525135742.png]]
+![[edu/Magolego 2024/Course Content/Week 07 - supervided graph embeddings, DGL [old]/img/Pasted image 20230525135742.png]]
 
 ### Framing the problems
 - **Message** function - computes the message using node/edge features
@@ -26,9 +26,9 @@ An embedding of a node should consider it's connections
 - **Update** function - computes new node embeddings using aggregated messages and the old node embedding
 
 ## Message function
-![[Pasted image 20230525140714.png]]
+![[edu/Magolego 2024/Course Content/Week 07 - supervided graph embeddings, DGL [old]/img/Pasted image 20230525140714.png]]
 $m_{i,j}^{(k)} = M(h_i^{(k)}, h_j^{(k)}, e_{ij})$ 
-![[Pasted image 20230525140922.png]]
+![[edu/Magolego 2024/Course Content/Week 07 - supervided graph embeddings, DGL [old]/img/Pasted image 20230525140922.png]]
 ### Message function examples
 - $m_{i,j}^{(k)} = M(h_i^{(k)}, h_j^{(k)}, e_{ij})$ 
 - $m_{i,j}^{(k)} = h_j^{(k)}$  - Neighbor copy
@@ -38,12 +38,12 @@ $m_{i,j}^{(k)} = M(h_i^{(k)}, h_j^{(k)}, e_{ij})$
 ## Aggregation function
 $\hat{m} = \oplus_{j\in N_i}m_{i,j}^{(k)}$
 aggregate all the messages from the neighborhood of i
-![[Pasted image 20230525142043.png]]
+![[edu/Magolego 2024/Course Content/Week 07 - supervided graph embeddings, DGL [old]/img/Pasted image 20230525142043.png]]
 ## Aggregation function properties
 - Fixed-lentgh representation regardless of neighborhood size
-![[Pasted image 20230525142052.png]]
+![[edu/Magolego 2024/Course Content/Week 07 - supervided graph embeddings, DGL [old]/img/Pasted image 20230525142052.png]]
 - Permutation invariant: gives the same answer regardless of how you order the inputs
-![[Pasted image 20230525142342.png]]
+![[edu/Magolego 2024/Course Content/Week 07 - supervided graph embeddings, DGL [old]/img/Pasted image 20230525142342.png]]
 ### Aggregation function examples
 - $\hat{m}_{i,j}^{(k)} = \oplus m_{ij}^{(k)}$
 - $\hat{m}_{i,j}^{(k)} = \sum\limits_{j \in N_i} m_{ij}^{(k)}$        - Sum
@@ -52,7 +52,7 @@ aggregate all the messages from the neighborhood of i
 
 ## Update function
 $h_i^{(k+1)}=\varphi(h_i^{(k)}, \hat{m}_{i}^{(k)})$
-![[Pasted image 20230525143127.png]]
+![[edu/Magolego 2024/Course Content/Week 07 - supervided graph embeddings, DGL [old]/img/Pasted image 20230525143127.png]]
 
 ### Update function examples
 - $h_i^{(k+1)} = \varphi(h_i^{(k)}, \hat{m}_{i}^{(k)})$

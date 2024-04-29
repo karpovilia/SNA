@@ -1,5 +1,5 @@
 [video](https://youtu.be/yt47x4O5Vao) 
-![[whiteboard.png]]
+![[edu/Magolego 2024/Course Content/Week 05 - network models, epidemic models [old]/img/whiteboard.png]]
 
 - Competition among memes in a world with limited attention, [nature](https://www.nature.com/articles/srep00335), 2012
 - Inf2vec: Latent Representation Model for Social Influence Embedding, [IEEE](https://ieeexplore.ieee.org/document/8509310), 2018

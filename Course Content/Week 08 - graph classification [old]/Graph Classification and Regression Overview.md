@@ -17,7 +17,7 @@
 	- Loss functions are the standards: cross-entropy for classification tasks, mean-squared error for regression
 
 ## Graph Pooling
-![[Pasted image 20230608180203.png]]
+![[edu/Magolego 2024/Course Content/Week 08 - graph classification [old]/img/Pasted image 20230608180203.png]]
 
 ## Graph Pooling with Set Pooling
 - Set pooling: map a set of embeddings to a single embedding 
@@ -45,7 +45,7 @@
 - Alternatively, could create a “super-graph” that creates a block-diagonal adjacency matrix of disconnected components and run MP once (fast) 
 - This creates book-keeping complexity of keeping track of which node belongs to which graph. This is important when need to do graph pooling to get graph-level embeddings 
 - This is DGL’s approach and they provide tooling for managing this complexity (e.g., [Batching and Reading Out Ops](https://docs.dgl.ai/en/0.6.x/api/python/dgl.html))
-![[Pasted image 20230608180328.png]]
+![[edu/Magolego 2024/Course Content/Week 08 - graph classification [old]/img/Pasted image 20230608180328.png]]
 
 
 ## Graph Classification Exercise

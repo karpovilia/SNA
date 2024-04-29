@@ -18,7 +18,7 @@ Moscow, 2023
 
 ---
 ## Graphs representation
-![](Pasted%20image%2020230511141856.png)
+![](edu/Magolego%202024/Course%20Content/Week%2006%20-%20unsupervised%20graph%20embeddings%20[old]/img/Pasted%20image%2020230511141856.png)
 In many fields the data have a graph structure
 - social: friendship graph in social networks, graph of scientific citations
 - man-made: internet, web, road networks, air communication networks
@@ -44,7 +44,7 @@ Machine learning tasks on graphs and their applications
 ---
 
 ## Approaches to learning graph representations
-![](Pasted%20image%2020230511141831.png)
+![](edu/Magolego%202024/Course%20Content/Week%2006%20-%20unsupervised%20graph%20embeddings%20[old]/img/Pasted%20image%2020230511141831.png)
 **Task:** find a representation of graph vertices as vectors of (low-dimensional) space that preserve useful information. Normally, vectors are close in space if the vertices are close in the graph
 
 graph embedding ~ representation learning
@@ -108,7 +108,7 @@ The representations for all k are concatenated. The disadvantage is the complexi
 ### 5) HOPE, AROPE
 Take S proximity matrix instead of adjacency matrix (Katz Index, Rooted Page Rank, Common Neighbors, Adamic-Adar score)
 
-![[Pasted image 20230511165035.png]]
+![[edu/Magolego 2024/Course Content/Week 06 - unsupervised graph embeddings [old]/img/Pasted image 20230511165035.png]]
 
 $\phi(Y)=||S-Y_sY_t^T||^2_F$ , сложность алгоритма $O(|E|d^2)$
 
@@ -119,19 +119,19 @@ $\phi(Y)=||S-Y_sY_t^T||^2_F$ , сложность алгоритма $O(|E|d^2)$
 	- [authors’ code](https://github.com/ZW-ZHANG/HOPE) (MATLAB)
 	- [add python code]
 
-![[Pasted image 20230511165532.png]]
+![[edu/Magolego 2024/Course Content/Week 06 - unsupervised graph embeddings [old]/img/Pasted image 20230511165532.png]]
 - AROPE [paper](https://pengcui.thumedialab.com/papers/NE-ArbitraryProximity.pdf)
 	- [authors’ code](https://github.com/ZW-ZHANG/HOPE) (MATLAB + Python)
 
 ---
 ## Word2vec
-![](Pasted%20image%2020230511152227.png)
+![](edu/Magolego%202024/Course%20Content/Week%2006%20-%20unsupervised%20graph%20embeddings%20[old]/img/Pasted%20image%2020230511152227.png)
 
 word2vec learns vector representations of words, useful in application tasks. Vectors show interesting semantic properties. For example:
 -   _king: male = queen: female_ ⇒
 -   _king - man + woman = queen_
 
- ![[Pasted image 20230511162541.png]]
+ ![[edu/Magolego 2024/Course Content/Week 06 - unsupervised graph embeddings [old]/img/Pasted image 20230511162541.png]]
 [word2vec explanation](https://www.youtube.com/watch?v=UqRCEmrv1gQ)
 [word2vec seminar ](https://colab.research.google.com/drive/17EOufnbX0fIIptUvx24P17seVVnyh1c_?usp=sharing)
 ![w2v](https://cdn-images-1.medium.com/max/2600/1*sXNXYfAqfLUeiDXPCo130w.png)
@@ -142,10 +142,10 @@ word2vec learns vector representations of words, useful in application tasks. Ve
 ## 2. Random walks
 **Key Idea**: Nodes in random walks $\approx$ words in  sentences -> use word2vec.
 
-![[Pasted image 20230511162819.png]]
+![[edu/Magolego 2024/Course Content/Week 06 - unsupervised graph embeddings [old]/img/Pasted image 20230511162819.png]]
 
 ### 1) Deepwalk (KDD, 2014)
-![[Pasted image 20230511162852.png]]
+![[edu/Magolego 2024/Course Content/Week 06 - unsupervised graph embeddings [old]/img/Pasted image 20230511162852.png]]
 
 - Parameters
 	- In practical tasks $w = 10$, $\gamma=80$, $t=80$
@@ -158,12 +158,12 @@ word2vec learns vector representations of words, useful in application tasks. Ve
 
 ### 2) LINE
 **Key Idea:** - don't generate random walks
-![[Pasted image 20230511164350.png]]
+![[edu/Magolego 2024/Course Content/Week 06 - unsupervised graph embeddings [old]/img/Pasted image 20230511164350.png]]
 - LINE [paper](https://arxiv.org/abs/1503.03578)
 	- [authors’ code](https://github.com/tangjianpku/LINE) (C++)
 
 ## 3) Node2vec
-![[Pasted image 20230511164518.png]]
+![[edu/Magolego 2024/Course Content/Week 06 - unsupervised graph embeddings [old]/img/Pasted image 20230511164518.png]]
 
 Low q - explore intra-cluster information
 High q - explore inter-cluster information
@@ -175,7 +175,7 @@ High q - explore inter-cluster information
 ## VERSE
 Random walks define a hidden similarity distribution
 
-![[Pasted image 20230511164714.png]]
+![[edu/Magolego 2024/Course Content/Week 06 - unsupervised graph embeddings [old]/img/Pasted image 20230511164714.png]]
 
  - VERSE [paper](https://arxiv.org/abs/1803.04742)
 	 - [authors’ code](https://github.com/xgfs/verse) (C++)

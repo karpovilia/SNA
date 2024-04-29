@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=SQoAMMJ-uKc&t=4046s
+Unsupervised embeddings by Anto Tsirulin https://www.youtube.com/watch?v=SQoAMMJ-uKc&t=4046s
 
 https://www.youtube.com/watch?v=GtiDsb4pQR0
 
