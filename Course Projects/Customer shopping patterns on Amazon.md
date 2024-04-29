@@ -1,9 +1,4 @@
-# Link to GitHub A project of analysing customer shopping patterns on Amazon (Sofya Morozova, Anna Bondar, Ilya Polyakov)
-
-GitHub
-
-# Description (CP)
-
+by Sofya Morozova, Anna Bondar, Ilya Polyakov (GitHub)
 ## Key Idea of Project:
 
 **The goal of this project** is to analyse the purchasing behaviour of Amazon customers through social network analysis (SNA) techniques.
