@@ -1,7 +1,4 @@
-by 
-- Illarionov Alexei
-- Bolotova Ekaterina
-GitHub
+by Illarionov Alexei, Bolotova Ekaterina, GitHub
 ## Key idea of project
 
 The main idea of the current project is to calculate the city and university based on user groups. We have two ideas for calculating the data:
