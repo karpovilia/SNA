@@ -1,8 +1,6 @@
-# Link to GitHub Predicting Stock Prices using GCN and LSTM Networks
+by: 
 
 GitHub
-
-# Description (CP)
 ## 1. Key Idea of the Project 
 
 The goal of this project is to develop an accurate predictive model for stock prices using a combination of Graph Convolutional Neural Networks (GCN) and Long Short-Term Memory (LSTM) networks. 

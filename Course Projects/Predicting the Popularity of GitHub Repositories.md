@@ -1,9 +1,4 @@
-# Link to GitHubPredicting the popularity of GitHub repositories (Popov Nikita, Saluev Evgeniy, Zakharov Dmitry) 
-
-GitHub
-
-# Description (CP)
-
+by: Popov Nikita, Saluev Evgeniy, Zakharov Dmitry (GitHub)
 ## Ключевая идея проекта
 
 **Цель проекта: 
