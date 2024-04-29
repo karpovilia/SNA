@@ -1,6 +1,6 @@
 week 04 [video](https://youtu.be/zRrdAO1ydCU?si=pZOSOdrYWJRspXC-)
 Slides: https://slides.com/d/RkIXvlk/live
-Practice:
+## Practice
 - [Simple communities](https://colab.research.google.com/drive/1ayB9aAXKMUDJFl7-g07nVXXobb74C5Iz?usp=sharing)
 - [Better visualizations on larger graphs](https://colab.research.google.com/drive/1apjW45Du5fUxH4nN93gUD2DG0JWyY2X7?usp=sharing) 
 - [Markov Clustering Algorithm](https://colab.research.google.com/drive/1VKFqnFvuTmqJWZdArcIMwypZBYu0R-Zi?usp=sharing)
@@ -8,7 +8,7 @@ Practice:
 - [Blockmodelling](https://colab.research.google.com/github/CALDISS-AAU/sdsphd19_coursematerials/blob/master/wednesday_network-blockmodeling/Lab_Blockmodeling.ipynb)
 - [Leidenalg](https://colab.research.google.com/drive/1IgtOxzuzira4HwpOLReR0-vcwEZhtJbC?usp=sharing)
 
-Useful materials:
+## References:
 - Stochastic Block Modelling [youtube](https://www.youtube.com/watch?v=_-Z3WLkH_es)
 - [From Louvain to Leiden: guaranteeing well-connected communities](https://www.nature.com/articles/s41598-019-41695-z), V. A. Traag, L. Waltman & N. J. van Eck, [pdf](https://www.nature.com/articles/s41598-019-41695-z.pdf)
 - [20 years of network community detection](https://www.nature.com/articles/s41567-022-01716-7), Santo Fortunato, M. E. J. Newman, [pdf](https://arxiv.org/abs/2208.00111)
