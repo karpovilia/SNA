@@ -1,4 +1,4 @@
-by Sofya Morozova, Anna Bondar, Ilya Polyakov (GitHub)
+by: Sofya Morozova, Anna Bondar, Ilya Polyakov (GitHub)
 ## Key Idea of Project:
 
 **The goal of this project** is to analyse the purchasing behaviour of Amazon customers through social network analysis (SNA) techniques.
