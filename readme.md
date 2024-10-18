@@ -12,5 +12,5 @@
 | 26.09.2024 | 18:10-19:30 | Lecture 04 | |  [слайды](https://slides.com/karpovilia/deck), [видео Youtube](https://youtu.be/-rSOjAN3S-E), [видео Rutube](https://rutube.ru/video/private/2df4003221a7875886091b030e7fc09e/?p=iXSzCGbaUfscVDSqdnx9cg)|
 | 05.10.2024 | 18:10-19:30 | Lecture 05 | |  [слайды](https://slides.com/karpovilia/deck-f36787), [видео Youtube](https://youtu.be/_AqKW-Uh1lQ), [видео Rutube](https://rutube.ru/video/private/f18c78b7253b715f3fd8b5d829401032/?p=U91XRh4IhLwLbzIK6Q_U0g)|
 | 10.10.2024 | 18:10-19:30 | Lecture 06 | |  [слайды](https://slides.com/karpovilia/deck-feec5b), [видео Youtube](https://youtu.be/PZeHsFrATo8), [видео Rutube](https://rutube.ru/video/private/f43db83b07306619550570f29aa0107e/?p=VrdxB6pICKdX3ncYeiFSmg)|
-| 17.10.2024 | 18:10-19:30 | Lecture 07 | |  [слайды](), [видео Youtube](), [видео Rutube]()|
+| 19.10.2024 | 18:10-19:30 | Lecture 07 | |  [слайды](), [видео Youtube](), [видео Rutube]()|
 
