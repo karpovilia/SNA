@@ -1,0 +1,402 @@
+<!doctype html>
+                  <html lang="ru">
+                    <head>
+                    <meta charset="utf-8"/>
+                    <title>Interractive graph</title>
+                    <style>
+                      .parent > div {
+                        background: #eee;
+                        float: left;
+                        margin-right: 2%;
+                        padding: 10px;
+                        border: 1px solid #ccc;
+                        -webkit-box-sizing: border-box;
+                        -moz-box-sizing: border-box;
+                        box-sizing: border-box;
+                      }
+                      #all_information{
+                        overflow-y:scroll;
+                        overflow-x:scroll;
+                      }
+                      #mynetwork {
+                          width: 1600px;
+                          height: 800px;
+                          border: 1px solid lightgray;
+                      }
+                      table, td,th {
+                        border: 1px solid black; 
+                        border-collapse: collapse;
+                      }
+                    </style>
+                    </head>
+                    <body>
+
+                    <div class="parent">
+                        <div id="mynetwork"></div>
+                        <div id="all_information"></div>
+                    </div>
+
+                    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css">
+                    <script src="https://visjs.github.io/vis-network/standalone/umd/vis-network.min.js"></script>
+                    <script>
+var nodes = new vis.DataSet([
+{         id: 1, 
+                                        label: "Donbass"
+},{         id: 2, 
+                                        label: "Kiev"
+},{         id: 3, 
+                                        label: "Russia"
+},{         id: 4, 
+                                        label: "Europe"
+},{         id: 5, 
+                                        label: "West"
+},{         id: 6, 
+                                        label: "Russophobia"
+},{         id: 7, 
+                                        label: "Motherland"
+},{         id: 8, 
+                                        label: "Government"
+},{         id: 9, 
+                                        label: "Russians"
+},{         id: 10, 
+                                        label: "Europeans"
+},{         id: 11, 
+                                        label: "Britain"
+},{         id: 12, 
+                                        label: "IMF"
+},{         id: 13, 
+                                        label: "VEB"
+},{         id: 14, 
+                                        label: "right  "
+},{         id: 15, 
+                                        label: "negotiations  West"
+},{         id: 16, 
+                                        label: "effort  "
+},{         id: 17, 
+                                        label: "system  "
+},{         id: 18, 
+                                        label: "plans  kind"
+},{         id: 19, 
+                                        label: "power  "
+},{         id: 20, 
+                                        label: "decades  "
+},{         id: 21, 
+                                        label: "way  "
+},{         id: 22, 
+                                        label: "implementation  project"
+},{         id: 23, 
+                                        label: "foundation  "
+},{         id: 24, 
+                                        label: "Ukraine  "
+},{         id: 25, 
+                                        label: "contribution  defence"
+},{         id: 26, 
+                                        label: "issue  "
+},{         id: 27, 
+                                        label: "warfare  "
+},{         id: 28, 
+                                        label: "all  this"
+},{         id: 29, 
+                                        label: "work  "
+},{         id: 30, 
+                                        label: "Americans  "
+},{         id: 31, 
+                                        label: "traits  "
+},{         id: 32, 
+                                        label: "you  "
+},{         id: 33, 
+                                        label: "goal  "
+},{         id: 34, 
+                                        label: "attempts  "
+},{         id: 35, 
+                                        label: "arsenals  "
+},{         id: 36, 
+                                        label: "membership  "
+},{         id: 37, 
+                                        label: "tests  "
+},{         id: 38, 
+                                        label: "challenges  "
+},{         id: 39, 
+                                        label: "forecast  0"
+},{         id: 40, 
+                                        label: "years  "
+},{         id: 41, 
+                                        label: "economy  "
+},{         id: 42, 
+                                        label: "principles  development"
+},{         id: 43, 
+                                        label: "foothold  "
+},{         id: 44, 
+                                        label: "businesses  "
+},{         id: 45, 
+                                        label: "bulk  risks"
+},{         id: 46, 
+                                        label: "issue  breaks"
+},{         id: 47, 
+                                        label: "potential  "
+},{         id: 48, 
+                                        label: "principle  management"
+},{         id: 49, 
+                                        label: "agenda  "
+},   ]);
+var edges = new vis.DataSet([{       from: 1, 
+                            to: 14, 
+                            arrows: "to",
+                            label: "fighting",
+                            info: {'sent_0': ' Since 2014  Donbass has been fighting for the right to live in their land and to speak their native tongue'}
+},{       from: 2, 
+                            to: 15, 
+                            arrows: "to",
+                            label: "held",
+                            info: {'sent_1': ' I would like to emphasise that  prior to the special military operation  Kiev held negotiations with the West about the delivery of air defence systems  warplanes and other heavy equipment to Ukraine'}
+},{       from: 3, 
+                            to: 16, 
+                            arrows: "to",
+                            label: "made",
+                            info: {'sent_2': ' It turns out that all this time  while Donbass was ablaze  while blood was being spilled  and while Russia sincerely made every effort to achieve a peaceful solution  I want to emphasise the word  sincerely    they gambled on people s lives  and in effect  were playing with marked cards  as they say in certain circles'}
+},{       from: 4, 
+                            to: 17, 
+                            arrows: "to",
+                            label: "needed",
+                            info: {'sent_3': ' We were open and sincerely ready for a constructive dialogue with the West  we said and insisted that both Europe and the whole world needed an indivisible security system equal for all countries  and for many years we suggested that our partners discuss this idea together and work on its implementation'}
+},{       from: 2, 
+                            to: 18, 
+                            arrows: "to",
+                            label: "discussing",
+                            info: {'sent_4': ' Even today  Kiev is openly discussing far reaching plans of this kind'}
+},{       from: 5, 
+                            to: 19, 
+                            arrows: "to",
+                            label: "seeks",
+                            info: {'sent_5': ' We are defending human lives and our common home  while the West seeks unlimited power'}
+},{       from: 5, 
+                            to: 20, 
+                            arrows: "to",
+                            label: "doing",
+                            info: {'sent_6': ' One gets the impression that this was done so that everyone would forget what the so called West has been doing over the past decades'}
+},{       from: 5, 
+                            to: 21, 
+                            arrows: "to",
+                            label: "paved",
+                            info: {'sent_7': ' I would like to recall that  in the 1930s  the West had virtually paved the way to power for the Nazis in Germany'}
+},{       from: 5, 
+                            to: 22, 
+                            arrows: "to",
+                            label: "expedited",
+                            info: {'sent_8': ' The West expedited the implementation of this project today by supporting the 2014 coup'}
+},{       from: 6, 
+                            to: 23, 
+                            arrows: "to",
+                            label: "formed",
+                            info: {'sent_9': ' Russophobia and extremely aggressive nationalism formed its ideological foundation'}
+},{       from: 5, 
+                            to: 24, 
+                            arrows: "to",
+                            label: "using",
+                            info: {'sent_10': ' The West is using Ukraine as a battering ram against Russia and as a testing range'}
+},{       from: 7, 
+                            to: 25, 
+                            arrows: "to",
+                            label: "appreciates",
+                            info: {'sent_11': ' The people must know that the Motherland appreciates their contribution to the defence of the Fatherland'}
+},{       from: 8, 
+                            to: 26, 
+                            arrows: "to",
+                            label: "reviewed",
+                            info: {'sent_12': ' The Government reviewed this issue'}
+},{       from: 5, 
+                            to: 27, 
+                            arrows: "to",
+                            label: "opened",
+                            info: {'sent_13': ' Colleagues  As I have already said  the West has opened not only military and informational warfare against us  but is also seeking to fight us on the economic front'}
+},{       from: 9, 
+                            to: 28, 
+                            arrows: "to",
+                            label: "blame",
+                            info: {'sent_14': ' Moreover  those who initiated the sanctions are punishing themselves  they sent prices soaring in their own countries  destroyed jobs  forced companies to close  and caused an energy crisis  while telling their people that the Russians were to blame for all of this'}
+},{       from: 8, 
+                            to: 29, 
+                            arrows: "to",
+                            label: "conduct",
+                            info: {'sent_15': ' I hope the Government will consistently and seriously conduct this work together with Parliament  the law enforcement bodies and business associations'}
+},{       from: 10, 
+                            to: 30, 
+                            arrows: "to",
+                            label: "argued",
+                            info: {'sent_16': ' True  I remember they still argued with each other   the Europeans argued with the Americans on how the Russian economy should develop'}
+},{       from: 3, 
+                            to: 31, 
+                            arrows: "to",
+                            label: "reflects",
+                            info: {'sent_17': ' Here I would like to mention the character of our people who have always been distinguished by their generosity  magnanimity  mercy and compassion  and Russia  as a country  fully reflects these traits'}
+},{       from: 3, 
+                            to: 32, 
+                            arrows: "to",
+                            label: "counting",
+                            info: {'sent_18': ' I want them to hear me  Russia is counting on you'}
+},{       from: 8, 
+                            to: 33, 
+                            arrows: "to",
+                            label: "given",
+                            info: {'sent_19': ' I would like to emphasise that the Government and the regions of the Federation have been given a practical goal   to ensure noticeable  tangible growth in real wages in Russia'}
+},{       from: 5, 
+                            to: 34, 
+                            arrows: "to",
+                            label: "involved",
+                            info: {'sent_20': ' We know that the West is directly involved in the Kiev regime s attempts to strike at our strategic aviation bases'}
+},{       from: 11, 
+                            to: 35, 
+                            arrows: "to",
+                            label: "have",
+                            info: {'sent_21': ' Britain and France also have nuclear arsenals'}
+},{       from: 3, 
+                            to: 36, 
+                            arrows: "to",
+                            label: "suspending",
+                            info: {'sent_22': ' In this regard  I am compelled to announce today that Russia is suspending its membership in the New START Treaty'}
+},{       from: 3, 
+                            to: 37, 
+                            arrows: "to",
+                            label: "conduct",
+                            info: {'sent_23': ' Given these circumstances  the Defence Ministry and Rosatom must make everything ready for Russia to conduct nuclear tests'}
+},{       from: 3, 
+                            to: 38, 
+                            arrows: "to",
+                            label: "meet",
+                            info: {'sent_24': ' Russia will meet any challenges because we are all one country  a big and united nation'}
+},{       from: 12, 
+                            to: 39, 
+                            arrows: "to",
+                            label: "believes",
+                            info: {'sent_25': ' This is at least what the IMF believes with its forecast of 0'}
+},{       from: 3, 
+                            to: 40, 
+                            arrows: "to",
+                            label: "exporter",
+                            info: {'sent_26': '  Russia has been a top five grain exporter for ten years now'}
+},{       from: 3, 
+                            to: 41, 
+                            arrows: "to",
+                            label: "involved",
+                            info: {'sent_27': '  Russia has been and will remain involved in the global economy'}
+},{       from: 3, 
+                            to: 42, 
+                            arrows: "to",
+                            label: "deviated",
+                            info: {'sent_28': '  Friends and colleagues   In the face of unprecedented challenges  Russia has not deviated from its principles of economic development   I said as much at the start'}
+},{       from: 3, 
+                            to: 43, 
+                            arrows: "to",
+                            label: "kept",
+                            info: {'sent_29': '  Russia has kept its foothold as the most important participant in the global market'}
+},{       from: 9, 
+                            to: 44, 
+                            arrows: "to",
+                            label: "employed",
+                            info: {'sent_30': ' More than 28 million Russians are employed in small and medium sized businesses'}
+},{       from: 13, 
+                            to: 45, 
+                            arrows: "to",
+                            label: "assume",
+                            info: {'sent_31': ' We will launch a special mechanism with VEB s participation which will allow banks to act as shareholders of investment projects whereby VEB will assume the bulk of the risks'}
+},{       from: 8, 
+                            to: 46, 
+                            arrows: "to",
+                            label: "considering",
+                            info: {'sent_32': ' The Government is now considering the issue of tax breaks both for issuers and buyers of such securities'}
+},{       from: 3, 
+                            to: 47, 
+                            arrows: "to",
+                            label: "has",
+                            info: {'sent_33': '  Russia has not only huge potential but also effective solutions'}
+},{       from: 8, 
+                            to: 48, 
+                            arrows: "to",
+                            label: "leveraging",
+                            info: {'sent_34': '  The Government and our colleagues in the regions are leveraging the platform based principle of data based management in their daily operations'}
+},{       from: 3, 
+                            to: 49, 
+                            arrows: "to",
+                            label: "has",
+                            info: {'sent_35': '  Today  Russia has a packed and very ambitious economic agenda'}
+},   ]);
+
+      var container = document.getElementById('mynetwork');
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+      var options = {
+        "physics":{
+          "barnesHut":{
+            "gravitationalConstant": -4000, 
+            "springConstant": 0.006,
+            "damping":0.2
+          },
+          "repulsion":{"nodeDistance":300}
+        }
+      };
+
+    var network = new vis.Network(container, data, options);
+    var res_container = document.getElementById('all_information');
+
+    network.on( 'click', function(properties) {
+        var clickedNodes = nodes.get(properties.nodes);
+        var clickedEdges = edges.get(properties.edges);
+        var clickedObject;
+
+        if (clickedNodes.length==0 & clickedEdges.length==0){
+            console.log("")
+            } else {
+                    clickedObject = clickedEdges[0] 
+                    var total_sum_by_doctype = clickedObject['info'];
+                    var tsbd_labels = Object.keys(total_sum_by_doctype);
+                    var tsbd_values = Object.values(total_sum_by_doctype);
+                    createTable(tsbd_labels, tsbd_values);
+                    } 
+    });
+
+    function createTable(labels, values){
+      var table = document.getElementById('text_information');
+      if (table != null)
+      {
+        table.remove(table);
+        table = document.createElement('table');
+        table.setAttribute('id', 'text_information');
+        res_container.appendChild(table);
+      }
+      else{
+        table = document.createElement('table');
+        table.setAttribute('id', 'text_information');
+        res_container.appendChild(table);
+      }
+      var tr_header = document.createElement('tr');
+      var th_col_label = document.createElement('th');
+      th_col_label.innerHTML = "Номер";
+      var th_col_value = document.createElement('th');
+      th_col_value.innerHTML = "Предложение, которое содержит ребро";
+      tr_header.appendChild(th_col_label);
+      tr_header.appendChild(th_col_value);
+      table.appendChild(tr_header);
+
+      for (var i=0; i < labels.length; i++){
+        var tr = document.createElement('tr');
+        let td1 = document.createElement('td');
+        td1.innerHTML = labels[i]
+        let td2 = document.createElement('td');
+        td2.innerHTML = values[i]
+        tr.appendChild(td1);
+        tr.appendChild(td2);
+        table.appendChild(tr);
+      }
+    }
+
+
+    </script>
+    <style>
+      #all_information {
+        overflow-y:scroll;
+      }
+    </style>
+    </body>
+    </html>
