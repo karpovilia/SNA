@@ -1,6 +1,6 @@
 # Main Page
 
-* [Описание курса](course_description.md)
+* [Описание курса](Course_SNA-2024-Fall.md)
 * [Страница курса](https://karpovilia.github.io/SNA/readme/)
 
 # Расписание
