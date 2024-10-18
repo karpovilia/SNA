@@ -5,7 +5,7 @@ Week 04 - Community detection
 
 |Date|Time|Activity|Topic|Materials|
 |----|----|--------|-----|---------|
-| 26.09.2024 | 18:10-19:30 | Lecture 04 | |  [слайды](https://slides.com/karpovilia/deck) [видео Youtube](https://youtu.be/-rSOjAN3S-E) [видео Rutube](https://rutube.ru/video/private/2df4003221a7875886091b030e7fc09e/?p=iXSzCGbaUfscVDSqdnx9cg)|
+| 26.09.2024 | 18:10-19:30 | Lecture 04 | |  [слайды](https://slides.com/karpovilia/deck), [видео Youtube](https://youtu.be/-rSOjAN3S-E), [видео Rutube](https://rutube.ru/video/private/2df4003221a7875886091b030e7fc09e/?p=iXSzCGbaUfscVDSqdnx9cg)|
 
 ## Practice
 - [Simple communities](https://colab.research.google.com/drive/1ayB9aAXKMUDJFl7-g07nVXXobb74C5Iz?usp=sharing)
