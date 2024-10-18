@@ -1,5 +1,12 @@
-week 04 [video](https://youtu.be/zRrdAO1ydCU?si=pZOSOdrYWJRspXC-)
-Slides: https://slides.com/d/RkIXvlk/live
+Week 04 - Community detection
+
+* [Описание курса](Course_SNA-2024.md)
+* [Страница курса](https://karpovilia.github.io/SNA/readme/)
+
+|Date|Time|Activity|Topic|Materials|
+|----|----|--------|-----|---------|
+| 26.09.2024 | 18:10-19:30 | Lecture 04 | |  [слайды](https://slides.com/karpovilia/deck) [видео Youtube](https://youtu.be/-rSOjAN3S-E) [видео Rutube](https://rutube.ru/video/private/2df4003221a7875886091b030e7fc09e/?p=iXSzCGbaUfscVDSqdnx9cg)|
+
 ## Practice
 - [Simple communities](https://colab.research.google.com/drive/1ayB9aAXKMUDJFl7-g07nVXXobb74C5Iz?usp=sharing)
 - [Better visualizations on larger graphs](https://colab.research.google.com/drive/1apjW45Du5fUxH4nN93gUD2DG0JWyY2X7?usp=sharing) 
