@@ -6,4 +6,4 @@ Week 01 - course intro
 
 | Date       | Time        | Activity   | Topic | Materials            |
 | ---------- | ----------- | ---------- | ----- | -------------------- |
-| 07.09.2024 | 18:10-19:30 | Lecture 01 |       |[слайды](https://slides.com/karpovilia/introduction), [видео Youtube](https://youtu.be/PZeHsFrATo8), [видео Rutube](https://rutube.ru/video/private/7c1cdb00de6c62fc50e1205c0143bac4/?p=KYd9fClbynnlCL9sRFg0dg)||
+| 07.09.2024 | 18:10-21:00 | Lecture 01 | Introduction |[слайды]((https://slides.com/karpovilia/deck-b38484/scroll), [Транскрипт](https://app.read.ai/analytics/meetings/01KN7BFNNRC967RTRPKGAWZMPT?utm_source=Share_CopyLink)|
