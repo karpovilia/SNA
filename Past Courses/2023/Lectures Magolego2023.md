@@ -5,5 +5,5 @@
 - week 05 [video](https://youtu.be/nnvgnxFy6H8)
 - week 06 [video](https://youtu.be/SHzqTGc8_h8)
 - week 07 [video](https://youtu.be/1XNfF4VdFXQ)
-- week [video](https://youtu.be/TkPxJnM6_sg)
-- week [video](https://youtu.be/IHuEYMyDepc)
+- week 08 [video](https://youtu.be/TkPxJnM6_sg)
+- week 09 [video](https://youtu.be/IHuEYMyDepc)
