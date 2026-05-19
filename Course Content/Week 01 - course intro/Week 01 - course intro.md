@@ -1,6 +1,6 @@
 Week 01 - course intro
 
-* [Описание курса](Course_SNA-2024.md)
+* [Описание курса](Course_SNA.md)
 * [Страница курса](https://karpovilia.github.io/SNA/readme/)
 
 # Расписание
