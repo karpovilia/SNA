@@ -6,4 +6,4 @@ Week 02 - Basic Concepts
 # Расписание
 |Date|Time|Activity|Topic|Materials|
 |----|----|--------|-----|---------|
-| 09.04.2024 | 18:10-21:00 | Lecture 02 | |[слайды](https://slides.com/karpovilia/introduction-d511e1/scroll), [Транскрипт](https://app.read.ai/analytics/meetings/01KNSD9E1HSSV6XANHJMCMXZH3?utm_source=Share_CopyLink)|
+| 09.04.2026 | 18:10-21:00 | Lecture 02 | Basic Concepts |  [слайды](https://slides.com/karpovilia/introduction-d511e1/scroll), [ReadAi](https://app.read.ai/analytics/meetings/01KNSD9E1HSSV6XANHJMCMXZH3?utm_source=Share_CopyLink) |
