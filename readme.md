@@ -16,9 +16,7 @@
 | 23.04.2026 | 18:10-21:00 | Lecture 04 | Clustering and Community Detection |  [слайды](https://slides.com/karpovilia/deck/scroll), [ReadAi](https://app.read.ai/analytics/meetings/01KRCA4WXXJRJNA4J7XYBXAGYN?utm_source=Share_CopyLink) |
 | 30.04.2026 | 18:10-21:00 | Lecture 05 | Representation Learning on Graphs |  [слайды](https://slides.com/karpovilia/deck-4b8c08/scroll), [ReadAi](https://app.read.ai/analytics/meetings/01KQFETPTRASW7V65TG069858P?utm_source=Share_CopyLink) |
 | 14.05.2026 | 18:10-21:00 | Lecture 06 | Graph Neural Networks (GNN) |  [слайды](https://slides.com/karpovilia/deep-graph-library-dgl/scroll), [ReadAi](https://app.read.ai/analytics/meetings/01KRKH1JZ6SBTM10K4CK4HJFPD?utm_source=Share_CopyLink) |
-| 21.05.2026 | 18:10-21:00 | Lecture 07 | |  [слайды](), [ReadAi]() |
-| 28.05.2026 | 18:10-21:00 | Lecture 08 | |  [слайды](), [ReadAi]() |
-| 04.10.2026 | 18:10-21:00 | Lecture 09 | |  [слайды](), [ReadAi]() |
-| 11.10.2026 | 18:10-21:00 | Lecture 10 | |  [слайды](), [ReadAi]() |
-| 18.10.2026 | 18:10-21:00 | Lecture 11 | |  [слайды](), [ReadAi]() |
-| 25.10.2026 | 18:10-21:00 | Presentations of projects  | | [ReadAi]() |
+| 23.05.2026 | 18:10-21:00 | Lecture 07 | Recommendation systems |  [слайды](https://slides.com/karpovilia/deck-54efa2/scroll), [ReadAi](https://app.read.ai/analytics/meetings/01KSAPKPE7Z5FT6KG1Q858FR82?utm_source=Share_CopyLink) |
+| 28.05.2026 | 18:10-21:00 | Lecture 08 | TGN | [ReadAi](https://app.read.ai/analytics/meetings/01KSQJRA4CECXEX8E5HX92SG5N?utm_source=Share_CopyLink) |
+| 04.10.2026 | 18:10-21:00 | Lecture 09 | Knowledge graphs | [ReadAi](https://app.read.ai/analytics/meetings/01KT9KEMKSWJ7DBT40N2X7HFXP?utm_source=Share_CopyLink) |
+| 11.10.2026 | 18:10-21:00 | Presentations of projects  | | [ReadAi](https://app.read.ai/analytics/meetings/01KTVKR2MBAV3PTDR24FV42YBK?utm_source=Share_CopyLink) |
